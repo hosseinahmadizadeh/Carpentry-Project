@@ -22,7 +22,7 @@ function App() {
 
   const handleSubmit = () => {
     if (selectedTools.length === 0 && selectedProducts.length === 0) {
-      setErrorMessage("لطفا مصالح و محصول مورد نیاز را انتخاب کنید !");
+      setErrorMessage("لطفا مصالح مورد نیاز و محصول نهایی را انتخاب کنید !");
       setShowMessage(true);
     } else {
       setErrorMessage("");
