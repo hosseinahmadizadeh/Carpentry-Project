@@ -1,0 +1,35 @@
+.products-wrapper {
+  width: 90vw;
+  padding: 20px 0;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4b4b4b;
+  color: white;
+  border-radius: 30px;
+}
+.pOptions-container {
+  display: flex;
+}
+.pOptions-container {
+  display: flex;
+  gap: 2rem;
+}
+.pOption {
+  background-color: rgb(108, 108, 108);
+  padding: 10px;
+  border-radius: 20px;
+}
+.pOption label {
+  position: relative;
+  left: 5px;
+  color: white;
+}
+input[type="checkbox"] {
+  visibility: hidden;
+}
+.pSelected {
+  background-color: #a49d41;
+  color: #fff;
+}
