@@ -79,7 +79,7 @@ a {
 
 .secondaryText {
   color: rgb(39, 39, 39);
-  font-size: 1.5rem;
+  font-size: 20px;
 }
 .button {
   font-weight: 500;
@@ -93,9 +93,4 @@ a {
 .button:hover {
   cursor: pointer;
   transform: scale(1.1);
-}
-
-/* media queries */
-
-@media (max-width: 640px) {
 }
