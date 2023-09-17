@@ -11,7 +11,10 @@ button {
   font-size: 22px;
 }
 button:hover {
-  background-color: rgba(255, 196, 0, 0.92);
+  scale: 1.05;
+}
+button:active {
+  background-color: rgba(255, 196, 0, 0.7);
 }
 .message-container {
   background-color: #4b4b4b;

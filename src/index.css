@@ -74,7 +74,7 @@ a {
 .primaryText {
   color: #ffffff;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 28px;
 }
 
 .secondaryText {
@@ -96,30 +96,6 @@ a {
 }
 
 /* media queries */
-@media (min-width: 1536px) {
-  .innerWidth {
-    max-width: 1280px;
-    margin: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .paddings {
-    padding: 4rem;
-  }
-}
-
-@media (min-width: 1280px), (min-width: 768px) {
-  .paddings {
-    padding: 2rem;
-  }
-}
 
 @media (max-width: 640px) {
-  .primaryText {
-    font-size: 1.5rem;
-  }
-  .orangeText {
-    font-size: 1.2rem;
-  }
 }
